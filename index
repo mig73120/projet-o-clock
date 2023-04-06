@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restau</title>
+    <link rel="stylesheet" href="restau.css">
+    <link rel="stylesheet" href="restau.js">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">Nourriture<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Acceuil</a></li>
+            <li><a href="#a-propos">A Propos</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#avis">Avis</a></li>
+            <li><a href="#conatct">Contact</a></li>
+        </ul>
+    
+    </header>
+    
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>choisis toujours bien</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit expedita vero ab laboriosam amet qui pariatur deleniti, consequatur fugiat nemo a reiciendis doloribus quasi voluptatum corrupti, voluptas exercitationem mollitia.</p>
+            <a href="#" class="btn">Notre Menu</a>
+        </div>
+    </section>
+    
+    <section class"a-propos" id"a-propos">
+        <div class="row">
+            <div class="col50">
+                <h2 class="TitreText"><span>A</span>Propos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam deleniti illum perferendis officiis accusantium minima sapiente odio dolore distinctio nostrum dolores unde in soluta aliquam, cupiditate eum odit explicabo voluptate. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut tempore accusamus sint, delectus dolores natus nobis ipsum, perspiciatis cumque corporis ipsam quo exercitationem magnam soluta animi provident voluptates sequi.<br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam eius, dolorem fuga incidunt placeat mollitia quod molestiae officia. Error dolorem rem ratione fugit. Officia quod ratione sint dignissimos, provident dicta!</p>
+            </div>
+            <div class="col50">
+                <div class="entree">
+                    <img src="cavedescreuxentree.JPG" alt="entree">
+                </div>
+            </div>    
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="Titre">
+            <h2 class="TitreText"><span>N</span>otre<span>M</span>enu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores rerum, possimus veniam odio suscipit corporis! Placeat neque sed officia quasi deleniti ad expedita cumque sequi, corporis aspernatur voluptates error magni.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="menu">
+                    <img src="cavedescreuxmenu.jpg" alt="menu">
+                </div>
+                <div class="text">
+                    <h3>Salade Speciale</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            const header=document.querySelector('header');
+            header.classList.toggle("sticky",window.scrollY >0);        
+        });
+    </script>
+    
+</body>
+</html>
